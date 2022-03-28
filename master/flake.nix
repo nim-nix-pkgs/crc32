@@ -11,7 +11,6 @@
   inputs.src-crc32-master.ref   = "refs/heads/master";
   inputs.src-crc32-master.owner = "juancarlospaco";
   inputs.src-crc32-master.repo  = "nim-crc32";
-  inputs.src-crc32-master.dir   = "";
   inputs.src-crc32-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
